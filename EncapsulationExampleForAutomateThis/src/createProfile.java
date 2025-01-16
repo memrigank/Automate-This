@@ -2,16 +2,15 @@ public class createProfile extends bankDetails{
 
     private String Name;
     private int age;
-    private String accountNumber;
     public createProfile(String Name, int age, String accountNumber){
         super(accountNumber);
-        this.Name=Name;
+        setName(Name);
         setAge(age);
     }
 
     public void setAge(int age){
         if(age<1){
-            System.out.println("Not Allowed to set a negative or zero number to age");
+            throw new IllegalArgumentException("Age must be positive!");
         } else{
             this.age=age;
         }
@@ -20,4 +19,17 @@ public class createProfile extends bankDetails{
     public int getAge(){
         return age;
     }
+
+    public void setName(String Name) {
+        if (Name != null && !Name.isEmpty()) {
+            this.Name = Name;
+        } else {
+            throw new IllegalArgumentException("Name field can't be Empty!");
+        }
+    }
+
+        public String getName(){
+            return Name;
+        }
+
 }
