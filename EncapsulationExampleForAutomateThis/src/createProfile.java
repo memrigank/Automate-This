@@ -2,8 +2,8 @@ public class createProfile extends bankDetails{
 
     private String Name;
     private int age;
-    private long accountNumber;
-    public createProfile(String Name, int age, long accountNumber){
+    private String accountNumber;
+    public createProfile(String Name, int age, String accountNumber){
         super(accountNumber);
         this.Name=Name;
         setAge(age);

@@ -1,23 +1,20 @@
 public class bankDetails {
 
-    private long accountNumber;
+    private String accountNumber;
 
-    public bankDetails(long accountNumber){
+    public bankDetails(String accountNumber){
         setAccountNumber(accountNumber);
     }
 
-    public void setAccountNumber(long accountNumber){
+    public void setAccountNumber(String accountNumber){
         this.accountNumber=accountNumber;
     }
 
-    public long getAccountNumber(){
+    public String getAccountNumber(){
         return accountNumber;
     }
 
-    public long getMaskedAccountNumber(){
-        long maskedAccountNumber;
-        maskedAccountNumber=getAccountNumber();
-        maskedAccountNumber = maskedAccountNumber
-        return maskedAccountNumber;
+    public String getMaskedAccountNumber(){
+        return "*****" + accountNumber.substring(accountNumber.length()-4);
     }
 }
