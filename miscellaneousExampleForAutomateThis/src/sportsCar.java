@@ -1,8 +1,8 @@
 public class sportsCar extends car{
 
-    public int horsePower;
+    private int horsePower;
     public int topSpeed;
-    public int zeroToHundred;
+    private int zeroToHundred;
 
     public sportsCar(String brandName, String make, String model, int builtYear, int chassisNumber, int horsePower, int topSpeed, int zeroToHundred){
        super(brandName, make, model, builtYear, chassisNumber);
