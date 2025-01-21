@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Automate This.iml" filepath="$PROJECT_DIR$/Automate This.iml" />
       <module fileurl="file://$PROJECT_DIR$/EncapsulationExampleForAutomateThis/EncapsulationExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/EncapsulationExampleForAutomateThis/EncapsulationExampleForAutomateThis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PolymorphismForAutomateThis/PolymorphismForAutomateThis.iml" filepath="$PROJECT_DIR$/PolymorphismForAutomateThis/PolymorphismForAutomateThis.iml" />
       <module fileurl="file://$PROJECT_DIR$/inheritanceExampleForAutomateThis/inheritanceExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/inheritanceExampleForAutomateThis/inheritanceExampleForAutomateThis.iml" />
       <module fileurl="file://$PROJECT_DIR$/miscellaneousExampleForAutomateThis/miscellaneousExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/miscellaneousExampleForAutomateThis/miscellaneousExampleForAutomateThis.iml" />
     </modules>
