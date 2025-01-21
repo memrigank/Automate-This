@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AbstractionExampleForAutomateThis/AbstractionExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/AbstractionExampleForAutomateThis/AbstractionExampleForAutomateThis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Automate This.iml" filepath="$PROJECT_DIR$/Automate This.iml" />
       <module fileurl="file://$PROJECT_DIR$/EncapsulationExampleForAutomateThis/EncapsulationExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/EncapsulationExampleForAutomateThis/EncapsulationExampleForAutomateThis.iml" />
       <module fileurl="file://$PROJECT_DIR$/PolymorphismForAutomateThis/PolymorphismForAutomateThis.iml" filepath="$PROJECT_DIR$/PolymorphismForAutomateThis/PolymorphismForAutomateThis.iml" />

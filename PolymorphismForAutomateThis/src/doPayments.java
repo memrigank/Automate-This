@@ -9,5 +9,6 @@ public class doPayments {
         ccP.billPayment();
         dcP.billPayment();
         bP.addCardsToFlipkart();
+        bP.billPayment();
     }
 }
