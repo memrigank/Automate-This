@@ -44,4 +44,10 @@ public class basePayments {
         return mobileNumber;
     }
 
+    public String processPayment(String cardNumber) {
+        return "Processing payment for card: " + cardNumber;
+    }
+
+
+
 }
