@@ -13,7 +13,10 @@ public class runZoo {
         elephant.climbTree();
         elephant.hunt();
         elephant.swim();
-        elephant.drinking();
-        elephant.eating();
+        elephant.drinking("Elephant");
+        elephant.eating("Elephant", "Vegetarian");
+        tiger tiger = new tiger();
+        tiger.drinking("Tiger");
+        tiger.eating("Tiger", "Carnivorous");
     }
 }

@@ -1,11 +1,17 @@
 abstract class baseAbstractZoo {
 
-    public void eating(){
-        System.out.println("All Animals eats");
+    public String animalName;
+    public String dietType;
+
+    public void eating(String animalName, String dietType){
+        System.out.println(animalName +" are "+ dietType);
     }
 
-    public void drinking(){
-        System.out.println("all animal drinks water and milk");
+    public void drinking(String animalName){
+        if(animalName.equalsIgnoreCase("Tiger")) {
+            System.out.println(animalName+" drinks water and milk");
+        }else
+            System.out.println(animalName+" drinks water");
     }
 
     public abstract void hunt();
