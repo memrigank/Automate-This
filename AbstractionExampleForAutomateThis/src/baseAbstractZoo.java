@@ -1,4 +1,4 @@
-abstract class baseZoo {
+abstract class baseAbstractZoo {
 
     public void eating(){
         System.out.println("All Animals eats");
@@ -11,5 +11,5 @@ abstract class baseZoo {
     public abstract void hunt();
     public abstract void climbTree();
     public abstract void swim();
-    
+
 }
