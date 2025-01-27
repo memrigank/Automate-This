@@ -31,6 +31,7 @@ public class paymentService_Constructor {
 
     public void doBankPaymentUsingPayPal(double amount){
         baseInterface_ToBank.processPayment(amount);
+        baseInterface_ToBank.checkStatus();
     }
 
 }
