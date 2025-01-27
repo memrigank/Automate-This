@@ -1,6 +1,6 @@
-public class runOther {
+public class Zoo_runOther {  //Example of creating an object for abstract class, which is not possible btw
 
-    baseAbstractZoo baseAbstractZoo= new baseAbstractZoo() {
+    Zoo_baseAbstractZoo baseAbstractZoo= new Zoo_baseAbstractZoo() {
         @Override
         public void hunt() {
 
@@ -17,7 +17,7 @@ public class runOther {
         }
     };
 
-    baseInterfaceZoo baseInterfaceZoo = new baseInterfaceZoo() {
+    Zoo_baseInterfaceZoo baseInterfaceZoo = new Zoo_baseInterfaceZoo() {
         @Override
         public void animalEat() {
 

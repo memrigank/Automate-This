@@ -1,4 +1,4 @@
-public class tiger extends baseAbstractZoo{
+public class Zoo_tiger extends Zoo_baseAbstractZoo {
 
     public void hunt() {
         System.out.println("Yes Tiger hunt other animals, they are the apex predator");

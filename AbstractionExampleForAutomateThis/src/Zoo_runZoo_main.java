@@ -1,21 +1,21 @@
-public class runZoo {
+public class Zoo_runZoo_main {
 
     public static void main(String[] args){
-        cat cat = new cat();
+        Zoo_cat cat = new Zoo_cat();
         cat.animalDrinkWater();
         cat.animalEat();
         cat.animalRun();
-        dog dog = new dog();
+        Zoo_dog dog = new Zoo_dog();
         dog.animalDrinkWater();
         dog.animalRun();
         dog.animalEat();
-        elephant elephant = new elephant();
+        Zoo_elephant elephant = new Zoo_elephant();
         elephant.climbTree();
         elephant.hunt();
         elephant.swim();
         elephant.drinking("Elephant");
         elephant.eating("Elephant", "Vegetarian");
-        tiger tiger = new tiger();
+        Zoo_tiger tiger = new Zoo_tiger();
         tiger.drinking("Tiger");
         tiger.eating("Tiger", "Carnivorous");
     }

@@ -1,4 +1,4 @@
-public class dog implements baseInterfaceZoo{
+public class Zoo_dog implements Zoo_baseInterfaceZoo {
 
 
     @Override

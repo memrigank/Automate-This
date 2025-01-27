@@ -1,4 +1,4 @@
-public class monkey extends baseAbstractZoo{
+public class Zoo_monkey extends Zoo_baseAbstractZoo {
 
     public void hunt() {
         System.out.println("No Monkeys don't hunt, they mostly are vegetarian");

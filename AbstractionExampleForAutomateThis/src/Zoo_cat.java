@@ -1,4 +1,4 @@
-public class cat implements baseInterfaceZoo{
+public class Zoo_cat implements Zoo_baseInterfaceZoo {
     @Override
     public void animalEat() {
         System.out.println("cat eat meat");

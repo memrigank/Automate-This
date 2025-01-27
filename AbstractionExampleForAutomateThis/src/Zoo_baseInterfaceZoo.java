@@ -1,4 +1,4 @@
-public interface baseInterfaceZoo{
+public interface Zoo_baseInterfaceZoo {
 
     public void animalEat();
     public void animalDrinkWater();

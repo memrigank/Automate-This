@@ -1,4 +1,4 @@
-abstract class paymentProcessor {
+abstract class Payments_paymentProcessor {
 
     abstract void processPayments(double amount) throws InterruptedException;
 

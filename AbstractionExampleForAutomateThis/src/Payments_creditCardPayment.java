@@ -1,4 +1,4 @@
-public class creditCardPayment extends paymentProcessor {
+public class Payments_creditCardPayment extends Payments_paymentProcessor {
 
     @Override
     void processPayments(double amount) throws InterruptedException { // "throws Exception" had to add due to Thread.sleep

@@ -1,7 +1,7 @@
-public class paymentService{
+public class Payments_paymentService {
 
-private paymentProcessor paymentProcessor;
-paymentService (paymentProcessor paymentProcessor){
+private Payments_paymentProcessor paymentProcessor;
+Payments_paymentService(Payments_paymentProcessor paymentProcessor){
     this.paymentProcessor=paymentProcessor;
 }
 

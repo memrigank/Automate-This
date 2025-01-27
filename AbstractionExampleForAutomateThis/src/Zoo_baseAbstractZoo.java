@@ -1,4 +1,4 @@
-abstract class baseAbstractZoo {
+abstract class Zoo_baseAbstractZoo {
 
     public void eating(String animalName, String dietType){
         System.out.println(animalName +" are "+ dietType);
