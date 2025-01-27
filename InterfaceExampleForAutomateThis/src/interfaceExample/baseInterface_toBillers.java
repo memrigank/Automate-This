@@ -2,6 +2,6 @@ package interfaceExample;
 
 interface baseInterface_toBillers {
 
-    public void payElectricity(double amount);
-    public void payWaterBill(double amount);
+    void payElectricity(double amount);
+    void payWaterBill(double amount);
 }

@@ -10,6 +10,8 @@ public class debitCardPayments implements baseInterface_ToBank, baseInterface_to
     @Override
     public void checkStatus() {
         System.out.println("amount successfully sent!");
+        System.out.println("===============================================================");
+
     }
 
     @Override
