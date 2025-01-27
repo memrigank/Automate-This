@@ -1,8 +1,5 @@
 abstract class baseAbstractZoo {
 
-    public String animalName;
-    public String dietType;
-
     public void eating(String animalName, String dietType){
         System.out.println(animalName +" are "+ dietType);
     }
