@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AbstractionExampleForAutomateThis/AbstractionExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/AbstractionExampleForAutomateThis/AbstractionExampleForAutomateThis.iml" />
       <module fileurl="file://$PROJECT_DIR$/Automate This.iml" filepath="$PROJECT_DIR$/Automate This.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chapter_19_Payment App Example/Chapter_19_Payment App Example.iml" filepath="$PROJECT_DIR$/Chapter_19_Payment App Example/Chapter_19_Payment App Example.iml" />
       <module fileurl="file://$PROJECT_DIR$/EncapsulationExampleForAutomateThis/EncapsulationExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/EncapsulationExampleForAutomateThis/EncapsulationExampleForAutomateThis.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterfaceExampleForAutomateThis/InterfaceExampleForAutomateThis.iml" filepath="$PROJECT_DIR$/InterfaceExampleForAutomateThis/InterfaceExampleForAutomateThis.iml" />
       <module fileurl="file://$PROJECT_DIR$/PolymorphismForAutomateThis/PolymorphismForAutomateThis.iml" filepath="$PROJECT_DIR$/PolymorphismForAutomateThis/PolymorphismForAutomateThis.iml" />
