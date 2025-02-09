@@ -5,8 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class exampleClass {
 
     public static void main(String[] args) throws InterruptedException { //Thread.sleep expects you to have throws Exception
-        WebDriverManager.chromedriver().setup(); //setting up the driver
-        WebDriver driver = new ChromeDriver();   //creating driver object
+//        WebDriverManager.chromedriver().setup(); //setting up the driver
+//        WebDriver driver = new ChromeDriver();   //creating driver object
+        WebDriver driver= baseClass.getInstance();
+
         driver.get("https://www.google.com"); //going to the URL google.com
         System.out.println("Title: " + driver.getTitle()); //getting the Title
 
