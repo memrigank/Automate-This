@@ -1,11 +1,11 @@
 public class sumOfArray {
 
     public static void main(String[] args) {
-        int[] intArr = {3, 6, 5, 8, 2, 7};
+        int[] intArr = {2, 5, 7, 10};
         int sum=0;
         for(int a: intArr){
             sum+=a;
         }
-        System.out.println(sum);
+        System.out.println("The sum of the array is "+sum);
     }
 }
