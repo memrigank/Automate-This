@@ -8,10 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AutomatingMyntra" />
+        <module name="Chapter23_FirstAutomationSuit" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11">
       <module name="AutomatingMyntra" target="11" />
+      <module name="Chapter23_FirstAutomationSuit" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
