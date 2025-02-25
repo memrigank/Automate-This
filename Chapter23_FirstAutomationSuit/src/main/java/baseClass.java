@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class baseClass {
 
-    private static WebDriver driver;
+    private static WebDriver driver=null;
 
     private baseClass(){
     }
@@ -17,7 +17,10 @@ public class baseClass {
     return driver;
     }
 
-    public void verifyHomePage(){
-
+    public static void closeBrowser() {
+        if (driver != null) {  // Check if browser is open
+            driver.quit();  // Close browser
+            driver = null;  // Reset WebDriver instance
+        }
     }
 }

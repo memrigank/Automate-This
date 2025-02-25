@@ -6,7 +6,7 @@ public class homePageTC {
         WebDriver driver = baseClass.getInstance();
         driver.get("https://www.myntra.com/");
         homePage homePage = new homePage(driver);
-
-
+        homePage.verifyHomePage(driver);
+        baseClass.closeBrowser();
     }
 }
